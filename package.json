@@ -1,0 +1,23 @@
+{
+  "name": "morse-converter",
+  "version": "1.0.0",
+  "description": "A Morse code encoding and decoding library with support for Latin characters, numbers and punctuation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaimermXD/morse-converter.git"
+  },
+  "keywords": [
+    "Morse",
+    "code"
+  ],
+  "author": "Jaime Redondo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JaimermXD/morse-converter/issues"
+  },
+  "homepage": "https://github.com/JaimermXD/morse-converter#readme"
+}
