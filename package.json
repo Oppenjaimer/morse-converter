@@ -1,6 +1,6 @@
 {
   "name": "morse-converter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A Morse code encoding and decoding library with support for Latin characters, numbers and punctuation",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
