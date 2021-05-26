@@ -2,14 +2,19 @@
   "name": "morse-converter",
   "version": "1.0.0",
   "description": "A Morse code encoding and decoding library with support for Latin characters, numbers and punctuation",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JaimermXD/morse-converter.git"
   },
+  "files": [
+    "dist/**/*"
+  ],
   "keywords": [
     "Morse",
     "code"
@@ -19,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/JaimermXD/morse-converter/issues"
   },
-  "homepage": "https://github.com/JaimermXD/morse-converter#readme"
+  "homepage": "https://github.com/JaimermXD/morse-converter#readme",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
 }
