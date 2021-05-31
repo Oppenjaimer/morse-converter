@@ -10,9 +10,7 @@ type Options = {
 
 type MorseChar = keyof typeof chars;
 
-function setOptions(options?: Options): Options {
-  options = options || {};
-
+function setOptions(options: Options = {}): Options {
   return {
     dot: options.dot || ".",
     dash: options.dash || "-",
