@@ -42,3 +42,5 @@ export function decode(msg: string, opts?: Options): string {
     .map(c => (c === options.space ? " " : Object.keys(chars).filter(k => getChar(k, options) === c)[0] || options.unknown))
     .join("");
 }
+
+export { chars as ALPHABET };
