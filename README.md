@@ -1,5 +1,7 @@
 # morse-converter
 
+[![NPM](https://nodei.co/npm/morse-converter.png)](https://nodei.co/npm/morse-converter/)
+
 A Morse code encoding and decoding library with support for Latin characters, numbers and punctuation.
 
 ## Installation
@@ -29,22 +31,14 @@ const custom = morse.encode("is great! ñ", {
 // oo|ooo|_|aao|oao|o|oa|a|aoaoaa|_|#
 ```
 
-## Options
+## Documentation
 
-Both `encode()` and `decode()` methods use the same options, which by default are:
+Check out the documentation [here](https://github.com/JaimermXD/morse-converter/tree/master/docs/index.md).
 
-```
-{
-  dot: ".",
-  dash: "-",
-  space: "/",
-  separator: " ",
-  unknown: "?"
-}
-```
+## Contributing
 
-* *dot*: the string used as dot
-* *dash*: the string used as dash
-* *space*: the string used as space between words
-* *separator*: the string used as separator between characters
-* *unknown*: the string used to replace unsupported characters (supported characters in `characters.js`)
+Pull requests are welcome. For major changes, open an issue first to discuss what you would like to change.
+
+## License
+
+Released under the [MIT](https://github.com/JaimermXD/morse-converter/blob/master/LICENSE) license.
