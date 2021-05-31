@@ -28,7 +28,7 @@ export function encode(msg: string, opts?: Options): string {
   const options = setOptions(opts);
 
   return msg
-    .replace(/ +/, " ")
+    .replace(/ +/g, " ")
     .split("")
     .map(c => (c === " " ? options.space : getChar(c, options) || options.unknown))
     .join(options.separator);
