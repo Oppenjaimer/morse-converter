@@ -4,7 +4,7 @@
 
 ### `.ALPHABET` [READ-ONLY]
 
-> Morse code used by the library.
+> Morse code used by the library.  
 > **Type:** [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 
 ## Functions
@@ -15,12 +15,8 @@
 > | Parameter | Type | Optional | Default | Description |
 > |:-:|:-:|:-:|:-:|:-:|
 > | msg | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | | | Message to encode |
-> | opts | [Options](#options) | ✔ | _none_ | Options |
-> | opts.dot | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | ✔ | `"."` | String used as dot |
-> | opts.dash | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | ✔ | `"-"` | String used as dash |
-> | opts.space | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | ✔ | `"/"` | String used as space |
-> | opts.separator | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | ✔ | `" "` | String used to separate characters |
-> | opts.unknown | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | ✔ | `"?"` | String used to replace unknown characters |
+> | opts | [Options](#options) | ✔ | _none_ | Encoding options |
+> 
 > **Returns:** [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
 
 ### `.decode(msg, [opts])`
@@ -29,12 +25,8 @@
 > | Parameter | Type | Optional | Default | Description |
 > |:-:|:-:|:-:|:-:|:-:|
 > | msg | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | | | Message to decode |
-> | opts | [Options](#options) | ✔ | _none_ | Options |
-> | opts.dot | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | ✔ | `"."` | String used as dot |
-> | opts.dash | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | ✔ | `"-"` | String used as dash |
-> | opts.space | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | ✔ | `"/"` | String used as space |
-> | opts.separator | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | ✔ | `" "` | String used to separate characters |
-> | opts.unknown | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | ✔ | `"?"` | String used to replace unknown characters |
+> | opts | [Options](#options) | ✔ | _none_ | Decoding options |
+> 
 > **Returns:** [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
 
 ## Typedefs
@@ -49,4 +41,5 @@
 > | space | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | ✔ | `"/"` | String used as space |
 > | separator | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | ✔ | `" "` | String used to separate characters |
 > | unknown | [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | ✔ | `"?"` | String used to replace unknown characters |
+> 
 > **Type:** [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
